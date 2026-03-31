@@ -43,7 +43,7 @@ productCards.forEach((card) => {
   const whatsappLink = card.querySelector(".js-whatsapp-link");
 
   if (whatsappLink) {
-    const message = `Hello I am interested in ${productName} from NextView`;
+    const message = `Hello I am interested in ${productName} `;
     whatsappLink.href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
   }
 });
